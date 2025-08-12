@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sunny" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js" defer></script>
+</head>
+<body>
+    <main>
+        <article style="padding: 40px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="line-height: 1ch;">
+                    <h1 class="location-header">Hagen, Germany</h1>
+                    <p class="date">Sunday, 24 April</p>
+                </div>
+                <span class="material-symbols-outlined">sunny</span>  
+            </div>
+            <h1 class="temperature-indicator">18°</h1>     
+        </article>
+        <div style="display: flex;" id="weather-chronology"> 
+        </div>
+    </main>
+</body>
+</html>

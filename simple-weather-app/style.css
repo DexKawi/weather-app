@@ -2,7 +2,6 @@
   font-size: larger;
 }
 
-
 * {
   font-family: "Instrument Sans", sans-serif;
   font-optical-sizing: auto;
@@ -19,4 +18,21 @@
 .temperature-indicator {
   margin: auto;
   font-size: 128px;
+}
+
+.weather-container {
+  align-content: center;
+}
+
+#weather-chronology {
+  gap: 1em;
+}
+
+.weather-p3 {
+  font-weight: bolder;
+}
+
+.weather-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
